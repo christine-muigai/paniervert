@@ -1,1 +1,500 @@
-{}
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Carrots",
+        "description": "Fresh organic carrots, rich in beta-carotene and perfect for salads or cooking",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2019/01/carrots-shutterstock_789443206.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Apples",
+        "description": "Crisp and juicy red apples, packed with fiber and antioxidants",
+        "category": "fruits",
+        "price": 3.0,
+        "image": "https://media.self.com/photos/5b6b0b0cbb7f036f7f5cbcfa/4:3/w_2560%2Cc_limit/apples.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Oats",
+        "description": "Whole grain rolled oats, ideal for healthy breakfasts and baking",
+        "category": "cereals",
+        "price": 4.0,
+        "image": "https://media.post.rvohealth.io/wp-content/uploads/2020/03/oats-oatmeal-732x549-thumbnail.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Milk",
+        "description": "Fresh whole milk, rich in calcium and vitamin D",
+        "category": "dairy",
+        "price": 1.5,
+        "image": "https://thedesignpeople.in/wp-content/uploads/2024/07/milk-packaging-design-in-India-1080x675.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Cheese",
+        "description": "Aged cheddar cheese, perfect for sandwiches and cheese boards",
+        "category": "dairy",
+        "price": 1.5,
+        "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg?w=1155&h=1528"
+      },
+      {
+        "id": 6,
+        "name": "Bananas",
+        "description": "Ripe yellow bananas, a great source of potassium and natural energy",
+        "category": "fruits",
+        "price": 1.0,
+        "image": "https://www.womansworld.com/wp-content/uploads/2024/07/Banana-Every-Day.jpg?quality=86&strip=all&w=1500"
+      },
+      {
+        "id": 7,
+        "name": "Rice",
+        "description": "Long grain white rice, fluffy texture perfect for all cuisines",
+        "category": "cereals",
+        "price": 2.0,
+        "image": "https://img.freepik.com/premium-photo/rice-spills-out-bag-closeup-background_269543-1807.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Yogurt",
+        "description": "Creamy strawberry yogurt with live active cultures for gut health",
+        "category": "dairy",
+        "price": 1.2,
+        "image": "https://froneri.ph/wp-content/uploads/2020/10/Sensational-Strawberry_110g.png"
+      },
+      {
+        "id": 9,
+        "name": "Bread",
+        "description": "Freshly baked whole wheat bread, high in fiber and nutrients",
+        "category": "bakery",
+        "price": 5.0,
+        "image": "https://lifehacker.com/imagery/articles/01HMENYE74D6V97J6XTEPK1GTR/hero-image.fill.size_1248x702.v1705594796.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Chicken",
+        "description": "Whole fresh chicken, great for roasting or grilling",
+        "category": "meat",
+        "price": 7.0,
+        "image": "https://meatdirect.co.nz/wp-content/uploads/whole-chicken-frozen-raw.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Fish",
+        "description": "Fresh white fish fillets, mild flavor and rich in omega-3",
+        "category": "seafood",
+        "price": 8.0,
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2022/8/KH/MV/DF/127932347/product-jpeg-500x500.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Eggs",
+        "description": "Farm-fresh large eggs, excellent source of protein",
+        "category": "dairy",
+        "price": 3.5,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/types-of-eggs-1644598328.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
+      },
+      {
+        "id": 13,
+        "name": "Potatoes",
+        "description": "Versatile russet potatoes, ideal for baking, mashing or frying",
+        "category": "vegetables",
+        "price": 2.0,
+        "image": "https://assets.farmjournal.com/dims4/default/8319f52/2147483647/strip/true/crop/1200x801+0+28/resize/800x534!/quality/90/?url=https%3A%2F%2Fk1-prod-farm-journal.s3.us-east-2.amazonaws.com%2Fbrightspot%2Fd5%2Fa6%2Ffe52e6074636b97a8bc43d9c5fac%2Fpromotionopportunities.png"
+      },
+      {
+        "id": 14,
+        "name": "Tomatoes",
+        "description": "Vine-ripened tomatoes, juicy and perfect for salads or sauces",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://survivalseeds.com.au/cdn/shop/articles/How-to-Grow-Tomatoes-2.webp?v=1710801242"
+      },
+      {
+        "id": 15,
+        "name": "Lettuce",
+        "description": "Crisp romaine lettuce, great for salads and sandwiches",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://goodeggs4.imgix.net/a866dc6a-22d4-4de3-a37c-b09ec4f935b2.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+      },
+      {
+        "id": 16,
+        "name": "Broccoli",
+        "description": "Fresh green broccoli florets, packed with vitamins C and K",
+        "category": "vegetables",
+        "price": 3.0,
+        "image": "https://www.taylorfarms.com/wp-content/uploads/2023/10/Broccoli-Minis.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Spinach",
+        "description": "Tender baby spinach leaves, excellent for salads or cooking",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://freshleafuae.com/wp-content/uploads/2024/08/spinach-freshleaf-dubai-uae-img01.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Grapes",
+        "description": "Sweet seedless black grapes, perfect for snacking or fruit salads",
+        "category": "fruits",
+        "price": 4.0,
+        "image": "https://gourmetgarden.in/cdn/shop/products/Seedless-black-grapes_7a6546bf-7f71-4f29-a9ec-dc3951628d65.jpg?v=1745068538"
+      },
+      {
+        "id": 19,
+        "name": "Oranges",
+        "description": "Juicy navel oranges, bursting with vitamin C",
+        "category": "fruits",
+        "price": 3.5,
+        "image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/272/272782/oranges-in-a-box.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Peaches",
+        "description": "Sweet and fragrant peaches, delicious fresh or in desserts",
+        "category": "fruits",
+        "price": 4.5,
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2019/06/peaches-shutterstock_297863489-1.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Pineapple",
+        "description": "Tropical golden pineapple, sweet and tangy flavor",
+        "category": "fruits",
+        "price": 5.0,
+        "image": "https://www.proagrimedia.com/wp-content/uploads/2023/03/vecteezy_pile-of-fresh-pineapples-for-sale-in-the-market_7061481_194-scaled.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Strawberries",
+        "description": "Plump red strawberries, sweet and perfect for desserts",
+        "category": "fruits",
+        "price": 6.0,
+        "image": "https://publish.purewow.net/wp-content/uploads/sites/2/2021/05/types-of-berries-strawberry.jpg?fit=680%2C489"
+      },
+      {
+        "id": 23,
+        "name": "Blueberries",
+        "description": "Antioxidant-rich blueberries, great for smoothies or baking",
+        "category": "fruits",
+        "price": 7.0,
+        "image": "https://mlgikbdxwhf1.i.optimole.com/cb:rcHN.2454f/w:auto/h:auto/q:mauto/https://www.chelseagreen.com/wp-content/uploads/low_light_berries-panorama.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Cherries",
+        "description": "Dark sweet cherries, juicy and full of flavor",
+        "category": "fruits",
+        "price": 8.0,
+        "image": "https://www.fruitsmart.com/wp-content/uploads/cherries.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Mangoes",
+        "description": "Tropical ripe mangoes, sweet and creamy texture",
+        "category": "fruits",
+        "price": 9.0,
+        "image": "https://a-z-animals.com/media/2023/07/shutterstock-2137750799-huge-licensed-scaled.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Watermelon",
+        "description": "Refreshing seedless watermelon, perfect for summer",
+        "category": "fruits",
+        "price": 10.0,
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2019/04/shutterstock_1325277155.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Cornflakes",
+        "description": "Classic crispy cornflakes, ideal for breakfast cereal",
+        "category": "cereals",
+        "price": 3.0,
+        "image": "https://media1.popsugar-assets.com/files/thumbor/yo_Gv97nNjooYsjvr6vygSs_WJw=/0x356:1936x2292/fit-in/792x1060/filters:format_auto():upscale()/2021/12/14/724/n/1922195/42e909b561b8c4f1717d48.50617257_.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Granola",
+        "description": "Crunchy honey granola with nuts and dried fruits",
+        "category": "cereals",
+        "price": 4.5,
+        "image": "https://bellyfull.net/wp-content/uploads/2022/05/Granola-recipe-blog-2.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Wheat Bran",
+        "description": "High-fiber wheat bran for baking or cereal",
+        "category": "cereals",
+        "price": 2.5,
+        "image": "https://www.tastingtable.com/img/gallery/what-is-bran-and-how-is-it-different-from-other-flour/is-bran-flour-healthier-than-other-flours-1681464591.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Almond Milk",
+        "description": "Creamy unsweetened almond milk, dairy-free alternative",
+        "category": "dairy",
+        "price": 3.5,
+        "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto,q_auto:eco/d_back_up_image.jpg,w_1200,c_scale/v1/products/72243_1.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Butter",
+        "description": "Rich creamy butter, perfect for baking and cooking",
+        "category": "dairy",
+        "price": 2.0,
+        "image": "https://www.allrecipes.com/thmb/4r0EnOqfO2AZEyjAb6GtUGAVPn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shutterstock_107521418-2000-d41554ac575447449a1ebbc93835cef8.jpg"
+      },
+      {
+        "id": 32,
+        "name": "Cream",
+        "description": "Heavy whipping cream for desserts and sauces",
+        "category": "dairy",
+        "price": 2.5,
+        "image": "https://www.nestleprofessional.ph/sites/default/files/styles/np_product_detail/public/2022-11/NESTL%C3%89%C2%AE%20Milk%20Cream%20300g.jpg?itok=8YKEU4jN"
+      },
+      {
+        "id": 33,
+        "name": "Ice Cream",
+        "description": "Premium vanilla ice cream, rich and creamy",
+        "category": "dairy",
+        "price": 5.0,
+        "image": "https://letsgozero.in/wp-content/uploads/2025/01/LAH-01162-2-scaled.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Bell Peppers",
+        "description": "Colorful sweet bell peppers, great for stir-fries and salads",
+        "category": "vegetables",
+        "price": 3.0,
+        "image": "https://swanhose.com/cdn/shop/articles/when-to-water-pepper-plants-and-the-best-ways-to-do-it_800x.jpg?v=1718373574"
+      },
+      {
+        "id": 35,
+        "name": "Cucumbers",
+        "description": "Crisp English cucumbers, refreshing in salads",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://www.growforagecookferment.com/wp-content/uploads/2023/08/preserve-cucumbers-featured.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Zucchini",
+        "description": "Fresh green zucchini, versatile for grilling or baking",
+        "category": "vegetables",
+        "price": 2.0,
+        "image": "https://www.marthastewart.com/thmb/QIX8Xkp0Uwk9Iyqqr0bKGmT23Cs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ms-cucumber-getty-280779505f9c4daaa0bc803e7dd6af8c.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Pumpkin",
+        "description": "Sweet cooking pumpkin, perfect for pies and soups",
+        "category": "vegetables",
+        "price": 3.5,
+        "image": "https://example.com/pumpkin.jpg"
+      },
+      {
+        "id": 38,
+        "name": "Sweet Potatoes",
+        "description": "Nutrient-dense sweet potatoes, great roasted or mashed",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://example.com/sweet_potatoes.jpg"
+      },
+      {
+        "id": 39,
+        "name": "Onions",
+        "description": "Yellow cooking onions, essential for flavoring dishes",
+        "category": "vegetables",
+        "price": 1.0,
+        "image": "https://example.com/onions.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Garlic",
+        "description": "Fresh garlic bulbs, aromatic and flavorful",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://example.com/garlic.jpg"
+      },
+      {
+        "id": 41,
+        "name": "Cauliflower",
+        "description": "White cauliflower florets, versatile low-carb vegetable",
+        "category": "vegetables",
+        "price": 3.0,
+        "image": "https://example.com/cauliflower.jpg"
+      },
+      {
+        "id": 42,
+        "name": "Eggplant",
+        "description": "Glossy purple eggplant, perfect for grilling or ratatouille",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://example.com/eggplant.jpg"
+      },
+      {
+        "id": 43,
+        "name": "Radishes",
+        "description": "Peppery red radishes, crunchy addition to salads",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://example.com/radishes.jpg"
+      },
+      {
+        "id": 44,
+        "name": "Asparagus",
+        "description": "Tender green asparagus spears, best roasted or steamed",
+        "category": "vegetables",
+        "price": 4.0,
+        "image": "https://example.com/asparagus.jpg"
+      },
+      {
+        "id": 45,
+        "name": "Celery",
+        "description": "Crisp celery stalks, great for snacks or soups",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://example.com/celery.jpg"
+      },
+      {
+        "id": 46,
+        "name": "Green Beans",
+        "description": "Tender green beans, delicious steamed or sautéed",
+        "category": "vegetables",
+        "price": 2.0,
+        "image": "https://example.com/green_beans.jpg"
+      },
+      {
+        "id": 47,
+        "name": "Peas",
+        "description": "Sweet green peas, perfect for side dishes",
+        "category": "vegetables",
+        "price": 2.5,
+        "image": "https://example.com/peas.jpg"
+      },
+      {
+        "id": 48,
+        "name": "Kale",
+        "description": "Nutrient-packed kale, great for salads and smoothies",
+        "category": "vegetables",
+        "price": 3.0,
+        "image": "https://example.com/kale.jpg"
+      },
+      {
+        "id": 49,
+        "name": "Cabbage",
+        "description": "Fresh green cabbage, ideal for slaws and stir-fries",
+        "category": "vegetables",
+        "price": 1.5,
+        "image": "https://example.com/cabbage.jpg"
+      },
+      {
+        "id": 50,
+        "name": "Brussels Sprouts",
+        "description": "Mini cabbage-like sprouts, delicious when roasted",
+        "category": "vegetables",
+        "price": 4.0,
+        "image": "https://example.com/brussels_sprouts.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Artichokes",
+        "description": "Tender artichoke hearts, great for dips and salads",
+        "category": "vegetables",
+        "price": 3.5,
+        "image": "https://example.com/artichokes.jpg"
+      },
+      {
+        "id": 52,
+        "name": "Radicchio",
+        "description": "Bitter red radicchio, adds color and flavor to salads",
+        "category": "vegetables",
+        "price": 2.0,
+        "image": "https://example.com/radicchio.jpg"
+      },
+      {
+        "id": 53,
+        "name": "Soy Milk",
+        "description": "Creamy soy milk alternative, lactose-free and vegan",
+        "category": "dairy",
+        "price": 3.0,
+        "image": "https://example.com/soy_milk.jpg"
+      },
+      {
+        "id": 54,
+        "name": "Greek Yogurt",
+        "description": "Thick protein-rich Greek yogurt, great with fruit or honey",
+        "category": "dairy",
+        "price": 4.0,
+        "image": "https://example.com/greek_yogurt.jpg"
+      },
+      {
+        "id": 55,
+        "name": "Rice Krispies",
+        "description": "Classic crispy rice cereal, perfect for breakfast or treats",
+        "category": "cereals",
+        "price": 3.5,
+        "image": "https://example.com/rice_krispies.jpg"
+      },
+      {
+        "id": 56,
+        "name": "Beef",
+        "description": "Premium ground beef, great for burgers and meatballs",
+        "category": "meat",
+        "price": 10.0,
+        "image": "https://example.com/beef.jpg"
+      },
+      {
+        "id": 57,
+        "name": "Pork",
+        "description": "Tender pork chops, juicy when grilled or baked",
+        "category": "meat",
+        "price": 8.5,
+        "image": "https://example.com/pork.jpg"
+      },
+      {
+        "id": 58,
+        "name": "Lamb",
+        "description": "Flavorful lamb chops, perfect for special occasions",
+        "category": "meat",
+        "price": 12.0,
+        "image": "https://example.com/lamb.jpg"
+      },
+      {
+        "id": 59,
+        "name": "Salmon",
+        "description": "Fresh Atlantic salmon fillets, rich in omega-3 fatty acids",
+        "category": "seafood",
+        "price": 15.0,
+        "image": "https://example.com/salmon.jpg"
+      },
+      {
+        "id": 60,
+        "name": "Shrimp",
+        "description": "Jumbo shrimp, sweet and perfect for grilling or sautéing",
+        "category": "seafood",
+        "price": 18.0,
+        "image": "https://example.com/shrimp.jpg"
+      },
+      {
+        "id": 61,
+        "name": "Crab",
+        "description": "Fresh crab meat, sweet and delicate flavor",
+        "category": "seafood",
+        "price": 20.0,
+        "image": "https://example.com/crab.jpg"
+      },
+      {
+        "id": 62,
+        "name": "Croissant",
+        "description": "Buttery flaky croissants, perfect for breakfast",
+        "category": "bakery",
+        "price": 2.5,
+        "image": "https://example.com/croissant.jpg"
+      }
+    ]
+  }
