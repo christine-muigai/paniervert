@@ -1,46 +1,35 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { auth } from './firebase';
-import Home from './Home';
-import CategoryPage from './CategoryPage';
-import Checkout from './Checkout';
-import Login from './Login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useAuth } from './AuthContext';
+import Navbar from './Navbar';
+import HomePage from './HomePage';
+import ShopPage from './ShopPage';
+import CartPage from './CartPage';
+import AdminPage from './AdminPage';
+import LoginPage from './LoginPage';
+import ProductPage from './ProductPage';
 
 function App() {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged(currentUser => {
-      setUser(currentUser);
-      setLoading(false);
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  if (loading) return <div className="text-center mt-10">Loading...</div>;
+  const { currentUser } = useAuth();
 
   return (
     <Router>
-      <Routes>
-        {!user ? (
-          <>
-            <Route path="/login" element={<Login />} />
-            <Route path="*" element={<Navigate to="/login" />} />
-          </>
-        ) : (
-          <>
-            <Route path="/" element={<Home />} />
-            <Route path="/category/:category" element={<CategoryPage />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </>
-        )}
-      </Routes>
+      <div className="min-h-screen bg-gray-50">
+        <Navbar />
+        <div className="container mx-auto px-4 py-8">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/products/:id" element={<ProductPage />} />
+            {currentUser && (
+              <Route path="/admin" element={<AdminPage />} />
+            )}
+          </Routes>
+        </div>
+      </div>
     </Router>
   );
 }
 
 export default App;
-
